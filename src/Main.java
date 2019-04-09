@@ -27,6 +27,7 @@ public class Main {
 		Calculator calculator = context.getBean(Calculator.class);
 		calculator.add(10,20);
 		calculator.divide(8.0,2.0);
+		calculator.multiply(8.0,2.0);
 	}
 
 
